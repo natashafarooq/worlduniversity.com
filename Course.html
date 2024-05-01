@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university page </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Antic&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/9fc514f8cd.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="hello2">
+   <nav> 
+    <a href="index.html"><img src="eduford_img/logo.png"></a>
+
+<div class="nav-links" id="navlinks">
+    <i  class="fa fa-times"onclick ="hiddenmenu()"></i>
+    <ul>
+        <li><a href="index.html">Home </a></li>
+        <li><a href="about-us.html">About </a></li>
+        <li><a href="Course.html">Course</a></li>
+        <li><a href="blog.html">BlOG </a></li>
+        <li><a href="contact-us.html">Contact </a></li>
+    </ul>
+</div>
+<i  class="fa fa-bars" onclick="showmenu()"></i>
+</nav>
+<h2> OurCourses</h2>
+<section class="course">
+    <h1>Course we offer</h1>
+    <p>
+        These Courses we are offer for your career.
+    </p>
+    <div class="row">
+        <div class="col">
+            <h3>Intermediate</h3>
+            <p> in intermediate you have alot of choices of subjects. Your career are dependent on these years so chosse subjects carefully</p>
+        </div>
+        <div class="col">
+            <h3>Degree</h3>
+            <p> in intermediate you have alot of choices of subjects. Your career are dependent on these years so chosse subjects carefully</p>
+        </div>
+        <div class="col">
+            <h3>Post graduate</h3>
+            <p> in intermediate you have alot of choices of subjects. Your career are dependent on these years so chosse subjects carefully</p>
+        </div>
+    </div>
+
+</section>
+<!---facilities-->
+<section>
+    <div class="Faclities">
+        <h1>Our Faclities</h1>
+        <p>We provide you a best facilities that will make your work easy</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="eduford_img/library.png">
+                <h3>World Class Library</h3>
+                <p>In Library you can read out the books according to your need</p>
+    
+            </div>
+            <div class="facilities-col">
+                <img src="eduford_img/basketball.png">
+                <h3>Play Ground Area </h3>
+                <p>Physical health are most important than studies </p>
+    
+            </div>
+            <div class="facilities-col">
+                <img src="eduford_img/cafeteria.png">
+                <h3>Cafeteria</h3>
+                <p>In Caampus , you find out the cafeteria where you can enjoy your meal with friends</p>
+    
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+
+<section class="footer">
+    <h4>Information about Courses</h4>
+    <p>Here you can find out the all answers of your questions regarding our university services,feestructure or many more.</p>
+    <div class="icons">
+        
+        <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-twitter"></i>
+    </div>
+    <p>Made With By Easy Tutorials </p>
+</section>
+    
+</body>
+<!-- javascript fot toggle-->
+<script>
+    var navlinks= document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right ="0";
+    }
+    function hiddenmenu(){
+        navlinks.style.right ="-200px";
+    }
+</script>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university page </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Antic&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/9fc514f8cd.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="hello2">
+   <nav> 
+    <a href="index.html"><img src="eduford_img/logo.png"></a>
+
+<div class="nav-links" id="navlinks">
+    <i  class="fa fa-times"onclick ="hiddenmenu()"></i>
+    <ul>
+        <li><a href="index.html">Home </a></li>
+        <li><a href="about-us.html">About </a></li>
+        <li><a href="Course.html">Course</a></li>
+        <li><a href="blog.html">BlOG </a></li>
+        <li><a href="contact-us.html">Contact </a></li>
+    </ul>
+</div>
+<i  class="fa fa-bars" onclick="showmenu()"></i>
+</nav>
+<h1 class="test">Contact us</h1>
+</section>
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212645.32758412763!2d73.08610799999998!3d33.61611625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbfd07891722f%3A0x6059515c3bdb02b6!2sIslamabad%2C%20Islamabad%20Capital%20Territory!5e0!3m2!1sen!2s!4v1711239956021!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa-solid fa-house"></i>
+                <span>
+                    <h5>XYZ Building,ABC No</h5>
+                    <p>saddar,Islambad,Rwalpindi</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone"></i> 
+                <span>
+                    <h5>+93232223523534</h5>
+                    <p>MOnday To saturday</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                <span>
+                    <h5>hello@ggbhg.com</h5>
+                    <p>E-mail us your Query</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+<form action="formhandler.php" method="post">
+    <input type="text"  name="name" placeholder="Enter your name " required></input>
+    <input type="e-mail" name="e-mail placeholder="Enter your E-mail " required></input>
+    <input type="text" name="subject" placeholder="Enter your subject" required></input>
+    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+    <button type="Submit" class="hero-btn red-btn">Send Message</button>
+
+</form>
+
+
+
+
+
+
+        </div>
+    </div>
+
+</section>
+
+
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Here you can find out the all answers of your questions regarding our university services,feestructure or many more.</p>
+    <div class="icons">
+        
+        <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-twitter"></i>
+    </div>
+    <p>Made With By Easy Tutorials </p>
+</section>
+    
+</body>
+<!-- javascript fot toggle-->
+<script>
+    var navlinks= document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right ="0";
+    }
+    function hiddenmenu(){
+        navlinks.style.right ="-200px";
+    }
+</script>
+</html>

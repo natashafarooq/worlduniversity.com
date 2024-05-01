@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university page </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Antic&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/9fc514f8cd.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="hello2">
+   <nav> 
+    <a href="index.html"><img src="eduford_img/logo.png"></a>
+
+<div class="nav-links" id="navlinks">
+    <i  class="fa fa-times"onclick ="hiddenmenu()"></i>
+    <ul>
+        <li><a href="index.html">Home </a></li>
+        <li><a href="about-us.html">About </a></li>
+        <li><a href="Course.html">Course</a></li>
+        <li><a href="blog.html">BlOG </a></li>
+        <li><a href="contact-us.html">Contact </a></li>
+    </ul>
+</div>
+<i  class="fa fa-bars" onclick="showmenu()"></i>
+</nav>
+<h1>About us</h1>
+</section>
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>World's largest university </h1>
+            <p>we are belive that our university is the world biggest university<br>Universities are the custodians not only of the many cultures of man, but of the rational process itself<br>. Universities exist to transmit knowledge and understanding of ideas and values to students not to provide entertainment for spectators or employment for athletes. </p>
+<a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+     
+     <div class="row">
+        <div class="about-col">
+            <img src="eduford_img/about.jpg">
+
+        </div>
+     </div>
+</section>
+
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Here you can find out the all answers of your questions regarding our university services,feestructure or many more.</p>
+    <div class="icons">
+        
+        <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-twitter"></i>
+    </div>
+    <p>Made With By Easy Tutorials </p>
+</section>
+    
+</body>
+<!-- javascript fot toggle-->
+<script>
+    var navlinks= document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right ="0";
+    }
+    function hiddenmenu(){
+        navlinks.style.right ="-200px";
+    }
+</script>
+</html>
